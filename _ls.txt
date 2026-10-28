@@ -1,0 +1,3 @@
+.venv
+kenney_platformer-characters
+__pycache__

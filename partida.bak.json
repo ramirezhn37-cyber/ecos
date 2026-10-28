@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "nivel": 2,
+  "x": 1212.4000000000003,
+  "y": 373.0,
+  "direccion": 1,
+  "vida": 3,
+  "ecos": [],
+  "ecos_recuperados": 17,
+  "ecos_recuperados_nivel": 6,
+  "npcs_hablados": [],
+  "final_elegido": null
+}

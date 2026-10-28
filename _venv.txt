@@ -1,0 +1,10 @@
+activate
+activate.bat
+activate.fish
+Activate.ps1
+deactivate.bat
+pip.exe
+pip3.14.exe
+pip3.exe
+python.exe
+pythonw.exe

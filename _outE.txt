@@ -1,0 +1,502 @@
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.3)
+== ESTRUCTURA DE NIVELES ==
+  OK   5 niveles definidos (hay 5)
+  OK   N1 'I · El Barrio Anegado': 2 NPCs (hay 2)
+  OK   N1: >=3 zombies (hay 3)
+  OK   N1: tupla zombie de 4 campos, tipo valido -> (150, 500, 80, 'errante')
+  OK   N1: tupla zombie de 4 campos, tipo valido -> (620, 410, 60, 'errante')
+  OK   N1: tupla zombie de 4 campos, tipo valido -> (1300, 460, 70, 'corrupto')
+  OK   N1 NPC Tomás · Archivista: >=3 lineas
+  OK   N1 NPC Tomás · Archivista: x dentro del mundo
+  OK   N1 NPC Vera · Niña de Papel: >=3 lineas
+  OK   N1 NPC Vera · Niña de Papel: x dentro del mundo
+  OK   N1: ascensor XOR terminal
+  OK   N1: tiene ascensor (necesario para avanzar)
+  OK   N1: ascensor no solapa al NPC Tomás · Archivista
+  OK   N1: ascensor no solapa al NPC Vera · Niña de Papel
+  OK   N2 'II · El Refugio Hundido': 2 NPCs (hay 2)
+  OK   N2: >=3 zombies (hay 5)
+  OK   N2: tupla zombie de 4 campos, tipo valido -> (140, 500, 70, 'errante')
+  OK   N2: tupla zombie de 4 campos, tipo valido -> (570, 390, 55, 'errante')
+  OK   N2: tupla zombie de 4 campos, tipo valido -> (1260, 455, 70, 'corrupto')
+  OK   N2: tupla zombie de 4 campos, tipo valido -> (1500, 405, 60, 'errante')
+  OK   N2: tupla zombie de 4 campos, tipo valido -> (2160, 460, 60, 'coloso')
+  OK   N2 NPC Iris · Guardiana: >=3 lineas
+  OK   N2 NPC Iris · Guardiana: x dentro del mundo
+  OK   N2 NPC Nilo · Explorador: >=3 lineas
+  OK   N2 NPC Nilo · Explorador: x dentro del mundo
+  OK   N2: ascensor XOR terminal
+  OK   N2: tiene ascensor (necesario para avanzar)
+  OK   N2: ascensor no solapa al NPC Iris · Guardiana
+  OK   N2: ascensor no solapa al NPC Nilo · Explorador
+  OK   N3 'III · El Corazón del Archivo': 2 NPCs (hay 2)
+  OK   N3: >=3 zombies (hay 6)
+  OK   N3: tupla zombie de 4 campos, tipo valido -> (150, 500, 70, 'errante')
+  OK   N3: tupla zombie de 4 campos, tipo valido -> (590, 385, 55, 'errante')
+  OK   N3: tupla zombie de 4 campos, tipo valido -> (800, 435, 60, 'corrupto')
+  OK   N3: tupla zombie de 4 campos, tipo valido -> (1490, 400, 60, 'corrupto')
+  OK   N3: tupla zombie de 4 campos, tipo valido -> (2180, 455, 65, 'errante')
+  OK   N3: tupla zombie de 4 campos, tipo valido -> (2400, 415, 70, 'coloso')
+  OK   N3 NPC Elena · Cartógrafa: >=3 lineas
+  OK   N3 NPC Elena · Cartógrafa: x dentro del mundo
+  OK   N3 NPC Soto · El Último Guardia: >=3 lineas
+  OK   N3 NPC Soto · El Último Guardia: x dentro del mundo
+  OK   N3: ascensor XOR terminal
+  OK   N3: tiene ascensor (necesario para avanzar)
+  OK   N3: ascensor no solapa al NPC Elena · Cartógrafa
+  OK   N3: ascensor no solapa al NPC Soto · El Último Guardia
+  OK   N4 'IV · La Cisterna Rota': 2 NPCs (hay 2)
+  OK   N4: >=3 zombies (hay 9)
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (140, 500, 70, 'errante')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (575, 395, 60, 'errante')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (795, 345, 55, 'corrupto')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (1235, 445, 65, 'corrupto')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (1460, 395, 70, 'errante')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (1685, 345, 60, 'errante')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (2135, 450, 70, 'coloso')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (2575, 345, 65, 'corrupto')
+  OK   N4: tupla zombie de 4 campos, tipo valido -> (2800, 400, 70, 'errante')
+  OK   N4 NPC Bram · Guardamuros: >=3 lineas
+  OK   N4 NPC Bram · Guardamuros: x dentro del mundo
+  OK   N4 NPC Nara · La Escriba: >=3 lineas
+  OK   N4 NPC Nara · La Escriba: x dentro del mundo
+  OK   N4: ascensor XOR terminal
+  OK   N4: tiene ascensor (necesario para avanzar)
+  OK   N4: ascensor no solapa al NPC Bram · Guardamuros
+  OK   N4: ascensor no solapa al NPC Nara · La Escriba
+  OK   N5 'V · El Archivo Sumergido': 2 NPCs (hay 2)
+  OK   N5: >=3 zombies (hay 12)
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (130, 500, 65, 'errante')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (545, 400, 60, 'errante')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (755, 350, 55, 'corrupto')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (965, 400, 60, 'corrupto')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (1385, 395, 65, 'errante')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (1595, 340, 55, 'coloso')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (1805, 390, 60, 'errante')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (2015, 440, 65, 'corrupto')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (2225, 385, 60, 'errante')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (2435, 335, 60, 'coloso')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (2645, 390, 65, 'corrupto')
+  OK   N5: tupla zombie de 4 campos, tipo valido -> (3070, 395, 70, 'errante')
+  OK   N5 NPC Orin · El Escriba Ciego: >=3 lineas
+  OK   N5 NPC Orin · El Escriba Ciego: x dentro del mundo
+  OK   N5 NPC Vega · La Última Soldado: >=3 lineas
+  OK   N5 NPC Vega · La Última Soldado: x dentro del mundo
+  OK   N5: ascensor XOR terminal
+  OK   N5: nivel final tiene terminal
+== ANCHOS, PLATAFORMAS E INICIO ==
+  OK   N1: ancho 2400 suficiente
+  OK   N1: la ultima plataforma cubre el final del mundo
+  OK   N1: plataforma inicial en x=0
+  OK   N1: inicio (40.0,423.0) apoyado en una plataforma
+  OK   N1: ascensor/terminal cerca del final
+  OK   N1: todos los ecos dentro del mundo
+  OK   N2: ancho 2800 suficiente
+  OK   N2: la ultima plataforma cubre el final del mundo
+  OK   N2: plataforma inicial en x=0
+  OK   N2: inicio (40.0,423.0) apoyado en una plataforma
+  OK   N2: ascensor/terminal cerca del final
+  OK   N2: todos los ecos dentro del mundo
+  OK   N3: ancho 3000 suficiente
+  OK   N3: la ultima plataforma cubre el final del mundo
+  OK   N3: plataforma inicial en x=0
+  OK   N3: inicio (40.0,423.0) apoyado en una plataforma
+  OK   N3: ascensor/terminal cerca del final
+  OK   N3: todos los ecos dentro del mundo
+  OK   N4: ancho 3200 suficiente
+  OK   N4: la ultima plataforma cubre el final del mundo
+  OK   N4: plataforma inicial en x=0
+  OK   N4: inicio (40.0,423.0) apoyado en una plataforma
+  OK   N4: ascensor/terminal cerca del final
+  OK   N4: todos los ecos dentro del mundo
+  OK   N5: ancho 3400 suficiente
+  OK   N5: la ultima plataforma cubre el final del mundo
+  OK   N5: plataforma inicial en x=0
+  OK   N5: inicio (40.0,423.0) apoyado en una plataforma
+  OK   N5: ascensor/terminal cerca del final
+  OK   N5: todos los ecos dentro del mundo
+== INSTANCIACION DE NIVELES ==
+  OK   N1: 2 NPCs instanciados
+  OK   N1: 3 zombies instanciados
+  OK   N1: ancho_mundo correcto
+  OK   N1: terminal correcto
+  OK   N1: ascensor correcto
+  OK   N1: ecos instanciados
+  OK   N2: 2 NPCs instanciados
+  OK   N2: 5 zombies instanciados
+  OK   N2: ancho_mundo correcto
+  OK   N2: terminal correcto
+  OK   N2: ascensor correcto
+  OK   N2: ecos instanciados
+  OK   N3: 2 NPCs instanciados
+  OK   N3: 6 zombies instanciados
+  OK   N3: ancho_mundo correcto
+  OK   N3: terminal correcto
+  OK   N3: ascensor correcto
+  OK   N3: ecos instanciados
+  OK   N4: 2 NPCs instanciados
+  OK   N4: 9 zombies instanciados
+  OK   N4: ancho_mundo correcto
+  OK   N4: terminal correcto
+  OK   N4: ascensor correcto
+  OK   N4: ecos instanciados
+  OK   N5: 2 NPCs instanciados
+  OK   N5: 12 zombies instanciados
+  OK   N5: ancho_mundo correcto
+  OK   N5: terminal correcto
+  OK   N5: ascensor correcto
+  OK   N5: ecos instanciados
+== VARIANTES DE ZOMBIE ==
+  OK   N1 errante: vida_max 1
+  OK   N1 errante: dano 1
+  OK   N1 errante: hitbox 56x77
+  OK   N1 errante: sprite escalado a 56x77
+  OK   N1 errante: vida_max 1
+  OK   N1 errante: dano 1
+  OK   N1 errante: hitbox 56x77
+  OK   N1 errante: sprite escalado a 56x77
+  OK   N1 corrupto: vida_max 2
+  OK   N1 corrupto: dano 1
+  OK   N1 corrupto: hitbox 56x77
+  OK   N1 corrupto: sprite escalado a 56x77
+  OK   N2 errante: vida_max 1
+  OK   N2 errante: dano 1
+  OK   N2 errante: hitbox 56x77
+  OK   N2 errante: sprite escalado a 56x77
+  OK   N2 errante: vida_max 1
+  OK   N2 errante: dano 1
+  OK   N2 errante: hitbox 56x77
+  OK   N2 errante: sprite escalado a 56x77
+  OK   N2 corrupto: vida_max 2
+  OK   N2 corrupto: dano 1
+  OK   N2 corrupto: hitbox 56x77
+  OK   N2 corrupto: sprite escalado a 56x77
+  OK   N2 errante: vida_max 1
+  OK   N2 errante: dano 1
+  OK   N2 errante: hitbox 56x77
+  OK   N2 errante: sprite escalado a 56x77
+  OK   N2 coloso: vida_max 4
+  OK   N2 coloso: dano 2
+  OK   N2 coloso: hitbox 82x107
+  OK   N2 coloso: sprite escalado a 82x107
+  OK   N3 errante: vida_max 1
+  OK   N3 errante: dano 1
+  OK   N3 errante: hitbox 56x77
+  OK   N3 errante: sprite escalado a 56x77
+  OK   N3 errante: vida_max 1
+  OK   N3 errante: dano 1
+  OK   N3 errante: hitbox 56x77
+  OK   N3 errante: sprite escalado a 56x77
+  OK   N3 corrupto: vida_max 2
+  OK   N3 corrupto: dano 1
+  OK   N3 corrupto: hitbox 56x77
+  OK   N3 corrupto: sprite escalado a 56x77
+  OK   N3 corrupto: vida_max 2
+  OK   N3 corrupto: dano 1
+  OK   N3 corrupto: hitbox 56x77
+  OK   N3 corrupto: sprite escalado a 56x77
+  OK   N3 errante: vida_max 1
+  OK   N3 errante: dano 1
+  OK   N3 errante: hitbox 56x77
+  OK   N3 errante: sprite escalado a 56x77
+  OK   N3 coloso: vida_max 4
+  OK   N3 coloso: dano 2
+  OK   N3 coloso: hitbox 82x107
+  OK   N3 coloso: sprite escalado a 82x107
+  OK   N4 errante: vida_max 1
+  OK   N4 errante: dano 1
+  OK   N4 errante: hitbox 56x77
+  OK   N4 errante: sprite escalado a 56x77
+  OK   N4 errante: vida_max 1
+  OK   N4 errante: dano 1
+  OK   N4 errante: hitbox 56x77
+  OK   N4 errante: sprite escalado a 56x77
+  OK   N4 corrupto: vida_max 2
+  OK   N4 corrupto: dano 1
+  OK   N4 corrupto: hitbox 56x77
+  OK   N4 corrupto: sprite escalado a 56x77
+  OK   N4 corrupto: vida_max 2
+  OK   N4 corrupto: dano 1
+  OK   N4 corrupto: hitbox 56x77
+  OK   N4 corrupto: sprite escalado a 56x77
+  OK   N4 errante: vida_max 1
+  OK   N4 errante: dano 1
+  OK   N4 errante: hitbox 56x77
+  OK   N4 errante: sprite escalado a 56x77
+  OK   N4 errante: vida_max 1
+  OK   N4 errante: dano 1
+  OK   N4 errante: hitbox 56x77
+  OK   N4 errante: sprite escalado a 56x77
+  OK   N4 coloso: vida_max 4
+  OK   N4 coloso: dano 2
+  OK   N4 coloso: hitbox 82x107
+  OK   N4 coloso: sprite escalado a 82x107
+  OK   N4 corrupto: vida_max 2
+  OK   N4 corrupto: dano 1
+  OK   N4 corrupto: hitbox 56x77
+  OK   N4 corrupto: sprite escalado a 56x77
+  OK   N4 errante: vida_max 1
+  OK   N4 errante: dano 1
+  OK   N4 errante: hitbox 56x77
+  OK   N4 errante: sprite escalado a 56x77
+  OK   N5 errante: vida_max 1
+  OK   N5 errante: dano 1
+  OK   N5 errante: hitbox 56x77
+  OK   N5 errante: sprite escalado a 56x77
+  OK   N5 errante: vida_max 1
+  OK   N5 errante: dano 1
+  OK   N5 errante: hitbox 56x77
+  OK   N5 errante: sprite escalado a 56x77
+  OK   N5 corrupto: vida_max 2
+  OK   N5 corrupto: dano 1
+  OK   N5 corrupto: hitbox 56x77
+  OK   N5 corrupto: sprite escalado a 56x77
+  OK   N5 corrupto: vida_max 2
+  OK   N5 corrupto: dano 1
+  OK   N5 corrupto: hitbox 56x77
+  OK   N5 corrupto: sprite escalado a 56x77
+  OK   N5 errante: vida_max 1
+  OK   N5 errante: dano 1
+  OK   N5 errante: hitbox 56x77
+  OK   N5 errante: sprite escalado a 56x77
+  OK   N5 coloso: vida_max 4
+  OK   N5 coloso: dano 2
+  OK   N5 coloso: hitbox 82x107
+  OK   N5 coloso: sprite escalado a 82x107
+  OK   N5 errante: vida_max 1
+  OK   N5 errante: dano 1
+  OK   N5 errante: hitbox 56x77
+  OK   N5 errante: sprite escalado a 56x77
+  OK   N5 corrupto: vida_max 2
+  OK   N5 corrupto: dano 1
+  OK   N5 corrupto: hitbox 56x77
+  OK   N5 corrupto: sprite escalado a 56x77
+  OK   N5 errante: vida_max 1
+  OK   N5 errante: dano 1
+  OK   N5 errante: hitbox 56x77
+  OK   N5 errante: sprite escalado a 56x77
+  OK   N5 coloso: vida_max 4
+  OK   N5 coloso: dano 2
+  OK   N5 coloso: hitbox 82x107
+  OK   N5 coloso: sprite escalado a 82x107
+  OK   N5 corrupto: vida_max 2
+  OK   N5 corrupto: dano 1
+  OK   N5 corrupto: hitbox 56x77
+  OK   N5 corrupto: sprite escalado a 56x77
+  OK   N5 errante: vida_max 1
+  OK   N5 errante: dano 1
+  OK   N5 errante: hitbox 56x77
+  OK   N5 errante: sprite escalado a 56x77
+  OK   hay errante y coloso para comparar
+  OK   el coloso es mas ancho que el errante
+  OK   el coloso es mas alto que el errante
+  OK   el coloso es mas lento que el errante
+  OK   el coloso golpea mas fuerte que el errante
+== STOMP Y DAÑO AL ZOMBIE ==
+  OK   existe un zombie errante
+  OK   errante muere en el stomp 1
+  OK   errante marcado como muerto
+  OK   errante con vida 0
+  OK   existe un zombie corrupto
+  OK   corrupto sobrevive al stomp 1
+  OK   corrupto no muerto tras 1 stomps
+  OK   corrupto muere en el stomp 2
+  OK   corrupto marcado como muerto
+  OK   corrupto con vida 0
+  OK   existe un zombie coloso
+  OK   coloso sobrevive al stomp 1
+  OK   coloso no muerto tras 1 stomps
+  OK   coloso sobrevive al stomp 2
+  OK   coloso no muerto tras 2 stomps
+  OK   coloso sobrevive al stomp 3
+  OK   coloso no muerto tras 3 stomps
+  OK   coloso muere en el stomp 4
+  OK   coloso marcado como muerto
+  OK   coloso con vida 0
+== DAÑO AL JUGADOR ==
+  OK   el jugador recibe dano
+  OK   pierde 1 vida (3 -> 2)
+  OK   queda invulnerable tras el golpe
+  OK   el segundo golpe se ignora por invulnerabilidad
+  OK   la vida no baja dos veces seguidas
+  OK   el coloso quita 2 vidas (vida 0)
+== NPC ==
+  OK   NPC 1 = Tomás · Archivista
+  OK   NPC 2 = Vera · Niña de Papel
+  OK   el NPC conserva todas sus lineas de dialogo
+  OK   el dialogo avanza a la linea 1
+  OK   el dialogo avanza a la linea 2
+  OK   el dialogo avanza a la linea 3
+  OK   el dialogo avanza a la linea 4
+  OK   el dialogo avanza a la linea 5
+  OK   npcs_hablados persiste al recargar el nivel
+  OK   el NPC 1 queda marcado como hablado
+  OK   el NPC 2 sigue sin hablar
+== DETECCION DE NPC CERCANO ==
+  OK   detecta al NPC 1 al solaparse
+  OK   detecta al NPC 2 al solaparse
+  OK   no detecta NPC lejos
+== PROGRESION ==
+  OK   el nivel 1 permite avanzar
+  OK   el nivel 2 permite avanzar
+  OK   el nivel 3 permite avanzar
+  OK   el nivel 4 permite avanzar
+  OK   el ultimo nivel NO tiene ascensor
+  OK   el ultimo nivel tiene terminal
+== GUARDADO / CARGA ==
+  OK   el archivo de guardado se crea
+  OK   cargar_partida devuelve True
+  OK   se restaura el nivel (tiene 2)
+  OK   se restauran los ecos totales (7)
+  OK   se restauran los ecos del nivel (2)
+  OK   se restauran los NPCs hablados
+  OK   se reconstruyen los NPCs al cargar
+  OK   se restauran los ecos pendientes (4)
+  OK   el nivel no queda listo si faltan ecos
+  OK   la vida se restaura al cargar
+== BUCLE DE SIMULACION (60 s por nivel) ==
+  OK   N1: el jugador sobrevive a la simulacion
+  OK   N1: el jugador no cae al vacio
+  OK   N1: el jugador no sale del mundo
+  OK   N2: el jugador sobrevive a la simulacion
+  OK   N2: el jugador no cae al vacio
+  OK   N2: el jugador no sale del mundo
+  OK   N3: el jugador sobrevive a la simulacion
+  OK   N3: el jugador no cae al vacio
+  OK   N3: el jugador no sale del mundo
+  OK   N4: el jugador sobrevive a la simulacion
+  OK   N4: el jugador no cae al vacio
+  OK   N4: el jugador no sale del mundo
+  OK   N5: el jugador sobrevive a la simulacion
+  OK   N5: el jugador no cae al vacio
+  OK   N5: el jugador no sale del mundo
+== PLAYTHROUGH COMPLETO (1 -> 5) ==
+  OK   N1: el nivel queda listo al recoger todos los ecos
+  OK   N1: hay ascensor disponible
+  OK   N1 -> N2: el ascensor avanza de nivel (nivel 1)
+  OK   N2: el nivel queda listo al recoger todos los ecos
+  OK   N2: hay ascensor disponible
+  OK   N2 -> N3: el ascensor avanza de nivel (nivel 2)
+  OK   N3: el nivel queda listo al recoger todos los ecos
+  OK   N3: hay ascensor disponible
+  OK   N3 -> N4: el ascensor avanza de nivel (nivel 3)
+  OK   N4: el nivel queda listo al recoger todos los ecos
+  OK   N4: hay ascensor disponible
+  OK   N4 -> N5: el ascensor avanza de nivel (nivel 4)
+  OK   N5: el nivel queda listo al recoger todos los ecos
+  OK   el nivel final tiene terminal
+  OK   el terminal abre la pantalla de decision
+  OK   la decision final se registra: Alteraste el recuerdo. Una nueva historia empieza a propagarse.
+== HABLAR CON LOS 2 NPCs DE CADA NIVEL ==
+  OK   N1 NPC1: E abre el dialogo
+  OK   N1 NPC1: se abre el dialogo correcto (Tomás · Archivista)
+  FAIL N1 NPC1: el dialogo se cierra al terminar
+  OK   N1 NPC1: queda marcado como hablado
+  OK   N1 NPC1: se registra en npcs_hablados
+  FAIL N1 NPC1: al reabrir empieza en la linea 1
+  OK   N1 NPC1: Esc cierra el dialogo
+  OK   N1 NPC2: E abre el dialogo
+  OK   N1 NPC2: se abre el dialogo correcto (Vera · Niña de Papel)
+  FAIL N1 NPC2: el dialogo se cierra al terminar
+  OK   N1 NPC2: queda marcado como hablado
+  OK   N1 NPC2: se registra en npcs_hablados
+  FAIL N1 NPC2: al reabrir empieza en la linea 1
+  OK   N1 NPC2: Esc cierra el dialogo
+  OK   N2 NPC1: E abre el dialogo
+  OK   N2 NPC1: se abre el dialogo correcto (Iris · Guardiana)
+  FAIL N2 NPC1: el dialogo se cierra al terminar
+  OK   N2 NPC1: queda marcado como hablado
+  OK   N2 NPC1: se registra en npcs_hablados
+  FAIL N2 NPC1: al reabrir empieza en la linea 1
+  OK   N2 NPC1: Esc cierra el dialogo
+  OK   N2 NPC2: E abre el dialogo
+  OK   N2 NPC2: se abre el dialogo correcto (Nilo · Explorador)
+  FAIL N2 NPC2: el dialogo se cierra al terminar
+  OK   N2 NPC2: queda marcado como hablado
+  OK   N2 NPC2: se registra en npcs_hablados
+  FAIL N2 NPC2: al reabrir empieza en la linea 1
+  OK   N2 NPC2: Esc cierra el dialogo
+  OK   N3 NPC1: E abre el dialogo
+  OK   N3 NPC1: se abre el dialogo correcto (Elena · Cartógrafa)
+  FAIL N3 NPC1: el dialogo se cierra al terminar
+  OK   N3 NPC1: queda marcado como hablado
+  OK   N3 NPC1: se registra en npcs_hablados
+  FAIL N3 NPC1: al reabrir empieza en la linea 1
+  OK   N3 NPC1: Esc cierra el dialogo
+  OK   N3 NPC2: E abre el dialogo
+  OK   N3 NPC2: se abre el dialogo correcto (Soto · El Último Guardia)
+  FAIL N3 NPC2: el dialogo se cierra al terminar
+  OK   N3 NPC2: queda marcado como hablado
+  OK   N3 NPC2: se registra en npcs_hablados
+  FAIL N3 NPC2: al reabrir empieza en la linea 1
+  OK   N3 NPC2: Esc cierra el dialogo
+  OK   N4 NPC1: E abre el dialogo
+  OK   N4 NPC1: se abre el dialogo correcto (Bram · Guardamuros)
+  FAIL N4 NPC1: el dialogo se cierra al terminar
+  OK   N4 NPC1: queda marcado como hablado
+  OK   N4 NPC1: se registra en npcs_hablados
+  FAIL N4 NPC1: al reabrir empieza en la linea 1
+  OK   N4 NPC1: Esc cierra el dialogo
+  OK   N4 NPC2: E abre el dialogo
+  OK   N4 NPC2: se abre el dialogo correcto (Nara · La Escriba)
+  FAIL N4 NPC2: el dialogo se cierra al terminar
+  OK   N4 NPC2: queda marcado como hablado
+  OK   N4 NPC2: se registra en npcs_hablados
+  FAIL N4 NPC2: al reabrir empieza en la linea 1
+  OK   N4 NPC2: Esc cierra el dialogo
+  OK   N5 NPC1: E abre el dialogo
+  OK   N5 NPC1: se abre el dialogo correcto (Orin · El Escriba Ciego)
+  FAIL N5 NPC1: el dialogo se cierra al terminar
+  OK   N5 NPC1: queda marcado como hablado
+  OK   N5 NPC1: se registra en npcs_hablados
+  FAIL N5 NPC1: al reabrir empieza en la linea 1
+  OK   N5 NPC1: Esc cierra el dialogo
+  OK   N5 NPC2: E abre el dialogo
+  OK   N5 NPC2: se abre el dialogo correcto (Vega · La Última Soldado)
+  FAIL N5 NPC2: el dialogo se cierra al terminar
+  OK   N5 NPC2: queda marcado como hablado
+  OK   N5 NPC2: se registra en npcs_hablados
+  FAIL N5 NPC2: al reabrir empieza en la linea 1
+  OK   N5 NPC2: Esc cierra el dialogo
+== STOMP EN JUEGO REAL (por tipo) ==
+  OK   el errante (N1) muere tras 1 stomps reales (1 aplicados)
+  OK   el errante queda con vida 0
+  OK   el errante muerto se retira de la lista activa
+  OK   el jugador no recibe dano al hacer stomps
+  FAIL el corrupto (N1) muere tras 2 stomps reales (0 aplicados)
+  FAIL el corrupto queda con vida 0
+  FAIL el corrupto muerto se retira de la lista activa
+  OK   el jugador no recibe dano al hacer stomps
+  FAIL el coloso (N2) muere tras 4 stomps reales (0 aplicados)
+  FAIL el coloso queda con vida 0
+  FAIL el coloso muerto se retira de la lista activa
+  OK   el jugador no recibe dano al hacer stomps
+== RESULTADO ==
+26 FALLOS:
+  - N1 NPC1: el dialogo se cierra al terminar
+  - N1 NPC1: al reabrir empieza en la linea 1
+  - N1 NPC2: el dialogo se cierra al terminar
+  - N1 NPC2: al reabrir empieza en la linea 1
+  - N2 NPC1: el dialogo se cierra al terminar
+  - N2 NPC1: al reabrir empieza en la linea 1
+  - N2 NPC2: el dialogo se cierra al terminar
+  - N2 NPC2: al reabrir empieza en la linea 1
+  - N3 NPC1: el dialogo se cierra al terminar
+  - N3 NPC1: al reabrir empieza en la linea 1
+  - N3 NPC2: el dialogo se cierra al terminar
+  - N3 NPC2: al reabrir empieza en la linea 1
+  - N4 NPC1: el dialogo se cierra al terminar
+  - N4 NPC1: al reabrir empieza en la linea 1
+  - N4 NPC2: el dialogo se cierra al terminar
+  - N4 NPC2: al reabrir empieza en la linea 1
+  - N5 NPC1: el dialogo se cierra al terminar
+  - N5 NPC1: al reabrir empieza en la linea 1
+  - N5 NPC2: el dialogo se cierra al terminar
+  - N5 NPC2: al reabrir empieza en la linea 1
+  - el corrupto (N1) muere tras 2 stomps reales (0 aplicados)
+  - el corrupto queda con vida 0
+  - el corrupto muerto se retira de la lista activa
+  - el coloso (N2) muere tras 4 stomps reales (0 aplicados)
+  - el coloso queda con vida 0
+  - el coloso muerto se retira de la lista activa
+EXITCODE=0 

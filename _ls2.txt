@@ -1,0 +1,10 @@
+.venv
+ejemplo.html
+kenney_platformer-characters
+main.py
+partida.json
+syntax_result.txt
+_check.txt
+_ls2.txt
+_status.txt
+__pycache__

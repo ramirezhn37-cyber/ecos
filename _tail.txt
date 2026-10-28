@@ -1,0 +1,80 @@
+== STOMP Y DAÑO AL ZOMBIE ==
+  OK   existe un zombie errante
+  OK   errante muere en el stomp 1
+  OK   errante marcado como muerto
+  OK   errante con vida 0
+  OK   existe un zombie corrupto
+  OK   corrupto sobrevive al stomp 1
+  OK   corrupto no muerto tras 1 stomps
+  OK   corrupto muere en el stomp 2
+  OK   corrupto marcado como muerto
+  OK   corrupto con vida 0
+  OK   existe un zombie coloso
+  OK   coloso sobrevive al stomp 1
+  OK   coloso no muerto tras 1 stomps
+  OK   coloso sobrevive al stomp 2
+  OK   coloso no muerto tras 2 stomps
+  OK   coloso sobrevive al stomp 3
+  OK   coloso no muerto tras 3 stomps
+  OK   coloso muere en el stomp 4
+  OK   coloso marcado como muerto
+  OK   coloso con vida 0
+== DAÑO AL JUGADOR ==
+  OK   el jugador recibe dano
+  OK   pierde 1 vida (3 -> 2)
+  OK   queda invulnerable tras el golpe
+  OK   el segundo golpe se ignora por invulnerabilidad
+  OK   la vida no baja dos veces seguidas
+  OK   el coloso quita 2 vidas (vida 0)
+== NPC ==
+  OK   NPC 1 = Tomás · Archivista
+  OK   NPC 2 = Vera · Niña de Papel
+  OK   el NPC conserva todas sus lineas de dialogo
+  OK   el dialogo avanza a la linea 1
+  OK   el dialogo avanza a la linea 2
+  OK   el dialogo avanza a la linea 3
+  OK   el dialogo avanza a la linea 4
+  OK   el dialogo avanza a la linea 5
+  OK   npcs_hablados persiste al recargar el nivel
+  OK   el NPC 1 queda marcado como hablado
+  OK   el NPC 2 sigue sin hablar
+== DETECCION DE NPC CERCANO ==
+  OK   detecta al NPC 1 al solaparse
+  OK   detecta al NPC 2 al solaparse
+  OK   no detecta NPC lejos
+== PROGRESION ==
+  OK   el nivel 1 permite avanzar
+  OK   el nivel 2 permite avanzar
+  OK   el nivel 3 permite avanzar
+  OK   el nivel 4 permite avanzar
+  OK   el ultimo nivel NO tiene ascensor
+  OK   el ultimo nivel tiene terminal
+== GUARDADO / CARGA ==
+  OK   el archivo de guardado se crea
+  OK   cargar_partida devuelve True
+  OK   se restaura el nivel (tiene 2)
+  OK   se restauran los ecos totales (7)
+  OK   se restauran los ecos del nivel (2)
+  OK   se restauran los NPCs hablados
+  OK   se reconstruyen los NPCs al cargar
+  FAIL el estado pasa a jugando tras cargar
+== BUCLE DE SIMULACION (60 s por nivel) ==
+  OK   N1: el jugador sobrevive a la simulacion
+  OK   N1: el jugador no cae al vacio
+  OK   N1: el jugador no sale del mundo
+  OK   N2: el jugador sobrevive a la simulacion
+  OK   N2: el jugador no cae al vacio
+  OK   N2: el jugador no sale del mundo
+  OK   N3: el jugador sobrevive a la simulacion
+  OK   N3: el jugador no cae al vacio
+  OK   N3: el jugador no sale del mundo
+  OK   N4: el jugador sobrevive a la simulacion
+  OK   N4: el jugador no cae al vacio
+  OK   N4: el jugador no sale del mundo
+  OK   N5: el jugador sobrevive a la simulacion
+  OK   N5: el jugador no cae al vacio
+  OK   N5: el jugador no sale del mundo
+== RESULTADO ==
+1 FALLOS:
+  - el estado pasa a jugando tras cargar
+EXIT=0 
