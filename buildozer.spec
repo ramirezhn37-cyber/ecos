@@ -5,12 +5,12 @@ package.name = ecosdelamemoria
 package.domain = org.ecos
 
 source.dir = .
-source.include_exts = py,png,json,ttf,ogg,wav
-source.exclude_dirs = tests,bin,.venv,.git,__pycache__
+source.include_exts = py,png,jpg,jpeg,json,ttf,ogg,wav
+source.exclude_dirs = tests,bin,.venv,.git,__pycache__,.buildozer
 
 version = 1.0
 
-requirements = python3,pygame
+requirements = python3,pygame==2.5.2
 
 orientation = landscape
 fullscreen = 1
@@ -26,9 +26,10 @@ warn_on_root = 1
 bootstrap = sdl2
 
 [android]
-api = 33
+api = 31
 minapi = 21
 ndk = 25b
 sdk = 33
-arch = armeabi-v7a,arm64-v8a
+arch = arm64-v8a
 allow_backup = True
+android.permissions = INTERNET
